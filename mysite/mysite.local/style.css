@@ -1,0 +1,15 @@
+p {
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 30px;
+    line-height: 25px;
+    color: #000000;
+}
+
+main {
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
