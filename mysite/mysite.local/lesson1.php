@@ -37,5 +37,6 @@
         }
         ?>   </table>
 </div>
+<br><a href="index.html">На главную</a>
 </body>
 </html>
