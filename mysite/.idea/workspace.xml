@@ -22,19 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56702539-073b-4a28-b954-24456105c9f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mysite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mysite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite.local/lesson2.php" beforeDir="false" afterPath="$PROJECT_DIR$/mysite.local/lesson2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite.local/lesson3.1.php" beforeDir="false" afterPath="$PROJECT_DIR$/mysite.local/lesson3.1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite.local/lesson3.php" beforeDir="false" afterPath="$PROJECT_DIR$/mysite.local/lesson3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nginx/logs/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx/logs/access.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nginx/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx/logs/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nginx/logs/nginx.pid" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx/logs/nginx.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../php/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../php/php.ini" afterDir="false" />
-    </list>
+    <list default="true" id="56702539-073b-4a28-b954-24456105c9f7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
