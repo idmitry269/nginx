@@ -1,25 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="56702539-073b-4a28-b954-24456105c9f7" name="Default Changelist" comment="" />
+    <list default="true" id="56702539-073b-4a28-b954-24456105c9f7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mysite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mysite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite.local/lesson2.php" beforeDir="false" afterPath="$PROJECT_DIR$/mysite.local/lesson2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite.local/lesson3.1.php" beforeDir="false" afterPath="$PROJECT_DIR$/mysite.local/lesson3.1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite.local/lesson3.php" beforeDir="false" afterPath="$PROJECT_DIR$/mysite.local/lesson3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nginx/logs/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx/logs/access.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nginx/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nginx/logs/nginx.pid" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx/logs/nginx.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../php/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../php/php.ini" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution />
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <phar pharPath="C:\nginx\Composer\composer.phar" interpreterId="b675e70e-ff5f-4a65-88b5-f12a7b0022ae" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1glpms8olC1p5P8tIk3tATgX9i9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysite.local" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\nginx\mysite\mysite.local" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="c about" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="lesson1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" editBeforeRun="true" temporary="true" path="$PROJECT_DIR$/mysite.local/lesson1.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.lesson1.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -30,16 +121,94 @@
       <option name="presentableId" value="Default" />
       <updated>1598699194187</updated>
       <workItem from="1598699195252" duration="31000" />
+      <workItem from="1598704378461" duration="40330000" />
+      <workItem from="1598959282860" duration="6969000" />
+      <workItem from="1599117652302" duration="2900000" />
+      <workItem from="1599552411022" duration="151000" />
+      <workItem from="1600068664566" duration="3856000" />
+      <workItem from="1600316537131" duration="3762000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1022" y="374" key="FileChooserDialogImpl" timestamp="1598699225031">
+    <state x="540" y="230" key="#CLI_Interpreters" timestamp="1600070382803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1022" y="374" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598699225031" />
+    <state x="540" y="230" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1600070382803" />
+    <state x="540" y="174" key="#PHP_CodeSniffer" timestamp="1600318465028">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="174" key="#PHP_CodeSniffer/0.0.1920.1040@0.0.1920.1040" timestamp="1600318465028" />
+    <state x="824" y="480" key="#PHP_CodeSniffer_Ignored_Files" timestamp="1600074253234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="824" y="480" key="#PHP_CodeSniffer_Ignored_Files/0.0.1920.1040@0.0.1920.1040" timestamp="1600074253234" />
+    <state x="668" y="255" key="#Servers" timestamp="1600068691707">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="255" key="#Servers/0.0.1920.1040@0.0.1920.1040" timestamp="1600068691707" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598714757657">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598714757657" />
+    <state x="684" y="396" key="ComposerCompositePathDialog" timestamp="1600068840253">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="684" y="396" key="ComposerCompositePathDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600068840253" />
+    <state x="737" y="432" width="446" height="266" key="ComposerInitDialogKey" timestamp="1600069007349">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="737" y="432" width="446" height="266" key="ComposerInitDialogKey/0.0.1920.1040@0.0.1920.1040" timestamp="1600069007349" />
+    <state x="1022" y="374" key="FileChooserDialogImpl" timestamp="1600069004452">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1022" y="374" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600069004452" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600084503940">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600084503940" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600084503939">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600084503939" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600084503939">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600084503939" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600084503939">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600084503939" />
+    <state x="795" y="443" key="NewPhpFileDialog" timestamp="1598960299315">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="795" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598960299315" />
+    <state x="453" y="215" key="SettingsEditor" timestamp="1600318558209">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="453" y="215" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600318558209" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600320852445">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600320852445" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1600068946586">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600068946586" />
   </component>
 </project>

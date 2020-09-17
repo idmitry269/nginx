@@ -7,7 +7,9 @@
 </head>
 <main>
 <form action="lesson3.1.php" method="post">
-    <p>Введите текст: <input type="text" name="text"></p>
+    <p>Введите текст: <label>
+            <input type="text" name="text">
+        </label></p>
     <p><input type="submit"></p>
 </form>
 
