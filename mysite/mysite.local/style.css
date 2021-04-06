@@ -5,6 +5,7 @@ p {
     line-height: 25px;
     color: #000000;
 }
+
 main {
     padding: 0;
     font-family: "Arial", sans-serif;
@@ -12,18 +13,6 @@ main {
     line-height: 25px;
     color: #000000;
 }
-table {
-    border-collapse: separate;
-    border: 2px solid #030303;
-}
-.table {
-    border: 1px solid #030303;
-    line-height: 20px;
-}
-td.table {
-    padding: 5px 15px 5px 5px;
-}
-
 .r1 {
     color: red;
 }

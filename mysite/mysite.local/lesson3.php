@@ -13,6 +13,6 @@
     <p><input type="submit"></p>
 </form>
 
-    <br><a href="index.php">На главную</a>
+    <br><a href="index.html">На главную</a>
 </main>
 

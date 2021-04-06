@@ -4,47 +4,59 @@
     <meta charset="UTF-8">
     <title>Таблица умножения</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+            border-collapse: separate;
+        }
+        .table {
+            border: 1px solid #030303;
+            line-height: 20px;
+        }
+    </style>
 </head>
 <body>
 <div>
     <table>
         <?php
-        $multiplier = 1;
-        $red_1 = "<span class='r1'>1</span>";
-        $green_2 = "<span class='g2'>2</span>";
-        $yellow_3 = "<span class='y3'>3</span>";
-        $blue_4 = "<span class='b4'>4</span>";
-        for ($t_l_score = 1; $t_l_score <= 2; $t_l_score++) {
+        $str = 2;
+        $stb = 5;
+        $k = 10;
+        $n = 1;
+        $l = 1;
+        $r1 = "<span class='r1'>1</span>";
+        $g2 = "<span class='g2'>2</span>";
+        $y3 = "<span class='y3'>3</span>";
+        $b4 = "<span class='b4'>4</span>";
+        for ($i = 1; $i <= $str; $i++) {
             echo "<tr>";
-            for ($t_c_score = 1; $t_c_score <= 5; $t_c_score++) {
+            for ($j = 1; $j <= $stb; $j++) {
                 echo "<td class=table>";
-                for ($multiplicand = 1; $multiplicand <= 10; $multiplicand++) {
-                    $res_arr = [];
-                    $result = $multiplier * $multiplicand;
-                    $res_str = "$multiplier x $multiplicand = $result<br>";
-                    $res_str_len = strlen($res_str);
+                for ($l = 1; $l <= $k; $l++) {
+                    $rez_new = [];
+                    $rez = $n*$l;
+                    $rez_s = "$n x $l = $rez<br>";
+                    $rezl = strlen($rez_s);
                     echo "<tr1>";
-                    for ($res_key = 0; $res_key < $res_str_len; $res_key++) {
-                        if ($res_str[$res_key] == "1") {
-                            $res_arr[$res_key] = $red_1;
-                        } elseif ($res_str[$res_key] == "2") {
-                            $res_arr[$res_key] = $green_2;
-                        } elseif ($res_str[$res_key] == "3") {
-                            $res_arr[$res_key] = $yellow_3;
-                        } elseif ($res_str[$res_key] == "4") {
-                            $res_arr[$res_key] = $blue_4;
+                    for ($p = 0; $p < $rezl; $p++) {
+                        if ($rez_s[$p] == "1") {
+                            $rez_new[$p] = $r1;
+                        } elseif ($rez_s[$p] == "2") {
+                            $rez_new[$p] = $g2;
+                        } elseif ($rez_s[$p] == "3") {
+                            $rez_new[$p] = $y3;
+                        } elseif ($rez_s[$p] == "4") {
+                            $rez_new[$p] = $b4;
                         } else {
-                            $res_arr[$res_key] = $res_str[$res_key];
+                            $rez_new[$p] = $rez_s[$p];
                         }
                     }
-                    $res_screen = implode($res_arr);
-                    echo $res_screen;
-                }
-                $multiplier++;
+                    $rez2 = implode($rez_new);
+                    echo $rez2;
+                }$n++;
             }
         }
         ?>   </table>
 </div>
-<br><a href="index.php">На главную</a>
+<br><a href="index.html">На главную</a>
 </body>
 </html>
