@@ -13,8 +13,3 @@
         <p><input type="submit" value="Назад"></p>
     </form>
 </main>
-
-
-
-
-
