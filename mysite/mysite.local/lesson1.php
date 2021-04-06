@@ -3,40 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Таблица умножения</title>
-    <style>
-        table {
-            border-collapse: separate;
-        }
-        .table {
-            border: 1px solid #030303;
-            line-height: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div>
     <table>
-        <?
-        $str = 2;
-        $stb = 5;
-        $k = 10;
-        $n = 1;
-        for($i=1; $i <= $str; $i++)
-        {
+        <?php
+        $multiplier = 1;
+        for ($t_l_score = 1; $t_l_score <= 2; $t_l_score++) {
             echo "<tr>";
-            for($j=1; $j <= $stb; $j++)
-            {
+            for ($t_c_score = 1; $t_c_score <= 5; $t_c_score++) {
                 echo "<td class=table>";
-                for($l=1; $l <= $k; $l++)
-                {
+                for ($multiplicand = 1; $multiplicand <= 10; $multiplicand++) {
                     echo "<tr1>";
-                    echo "$n x $l = ".$n*$l."<br>";
+                    echo "$multiplier x $multiplicand = " . $multiplier * $multiplicand . "<br>";
                 }
-                $n++;
+                $multiplier++;
             }
         }
-        ?>   </table>
+        ?>
+    </table>
 </div>
-<br><a href="index.html">На главную</a>
+<br><a href="index.php">На главную</a>
 </body>
 </html>
