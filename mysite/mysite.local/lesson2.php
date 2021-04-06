@@ -25,16 +25,21 @@
                     $res_str_len = strlen($res_str);
                     echo "<tr1>";
                     for ($res_key = 0; $res_key < $res_str_len; $res_key++) {
-                        if ($res_str[$res_key] == "1") {
-                            $res_arr[$res_key] = $red_1;
-                        } elseif ($res_str[$res_key] == "2") {
-                            $res_arr[$res_key] = $green_2;
-                        } elseif ($res_str[$res_key] == "3") {
-                            $res_arr[$res_key] = $yellow_3;
-                        } elseif ($res_str[$res_key] == "4") {
-                            $res_arr[$res_key] = $blue_4;
-                        } else {
-                            $res_arr[$res_key] = $res_str[$res_key];
+                        switch ($res_str[$res_key]) {
+                            case 1:
+                                $res_arr[$res_key] = $red_1;
+                                break;
+                            case 2:
+                                $res_arr[$res_key] = $green_2;
+                                break;
+                            case 3:
+                                $res_arr[$res_key] = $yellow_3;
+                                break;
+                            case 4:
+                                $res_arr[$res_key] = $blue_4;
+                                break;
+                            default:
+                                $res_arr[$res_key] = $res_str[$res_key];
                         }
                     }
                     $res_screen = implode($res_arr);
