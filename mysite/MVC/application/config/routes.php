@@ -1,24 +1,33 @@
 <?php
 
 return [
-    '' => [
+    '' =>
+        [
         'controller' => 'main',
         'action' => 'index',
-    ],
+        ],
 
-    'account/login' => [
+    'account/login' =>
+        [
         'controller' => 'account',
         'action' => 'login',
         ],
 
-    'account/register' => [
+    'account/register' =>
+        [
         'controller' => 'account',
         'action' => 'register',
-    ],
-
-    'news/show' => [
-        'controller' => 'news',
-        'action' => 'show',
         ],
 
+    'posts/all' =>
+        [
+        'controller' => 'posts',
+        'action' => 'all',
+        ],
+
+    'user/profile' =>
+        [
+        'controller' => 'user',
+        'action' => 'profile',
+        ],
 ];

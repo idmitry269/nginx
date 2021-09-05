@@ -39,18 +39,18 @@ class Router
         if ($this->match()) {
             $file_path = 'application\controllers\\'.ucfirst($this->params['controller']).'Controller';
             if (class_exists($file_path)) {
-                $action = $this->params['action'].'action';
+                $action = $this->params['action'].'Action';
                 if (method_exists($file_path, $action)) {
-                    $controller = new $file_path;
+                    $controller = new $file_path($this->params);
                     $controller->$action();
                 } else {
-                    echo 'Не найден экшен: '.$action;
+                    View::errorCode(404);
                 }
             } else {
-                echo 'Не найден контроллер: '.$file_path;
+                View::errorCode(404);
             }
         } else {
-            echo 'Маршрут не найден';
+            View::errorCode(404);
         }
     }
 

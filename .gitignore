@@ -6,3 +6,12 @@ nginx/
 **/workspace.xml
 boots*/
 *.log
+mysite/.idea/workspace.xml
+mysite/myBlog.local/
+nginx/logs/access.log
+nginx/logs/error.log
+nginx/logs/nginx.pid
+ssh.local/
+nginx/logs/access.log
+nginx/logs/error.log
+nginx/logs/nginx.pid
