@@ -2,7 +2,6 @@ Composer/
 vendor/
 .idea/
 php/
-nginx/
 **/workspace.xml
 boots*/
 *.log
